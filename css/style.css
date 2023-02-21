@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+/* ----- Grundstil för webbsidan ----- */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #f1f1f1;
+  color: #000000;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* ----- Stil för experiment med boxarna ----- */
+
+.wrapper {
+  /* Stil för elementet som omger boxarna */
+  background-color: #d6d2ff;
+  font-size: 0;
+  width: 100%;
+  padding: 20px;
+}
+
+.wrapper div {
+  /* Stil för alla boxar */
+  font-size: 1rem;
+  width: 200px;
+  height: 100px;
+  padding: 10px;
+  margin: 20px;
+  display: inline-block;
+  vertical-align: top;
+  border-width: 6px;
+  border-style: dotted;
+  border-color: #000000;
+  border-radius: 15px;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 15px 2px #333333;
+}
+
+#box1 {
+  /* #ff5100 #f76c5d*/
+  background-color: #ff4081;
+  overflow: auto;
+}
+
+#box1 h2 {
+  margin: 0;
+}
+
+#box2 {
+  background-color: #f4ffa2;
+}
+
+#box3 {
+  background-color: #8feee6;
+}
